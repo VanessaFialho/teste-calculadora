@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculadora">
+        <div id="caixa">0</div> <!-- caixa de texto -->
+
+        <input class="botao" type="button" value="7" id="bt7"> <input class="botao" type="button" value="8" id="bt8"> <input class="botao" type="button" value="9" id="bt9"> <input class="operadores" type="button" value="/" id="opdiv" onclick="dividir()"><br> <!-- primeira fileira de botoes -->
+
+        <input class="botao" type="button" value="4" id="bt4"> <input class="botao" type="button" value="5" id="bt5"> <input class="botao" type="button" value="6" id="bt6"> <input class="operadores" type="button" value="x" id="opmul" onclick="multiplicar()"><br> <!-- segunda fileira de botoes -->
+
+        <input class="botao" type="button" value="1" id="bt1"> <input class="botao" type="button" value="2" id="bt2"> <input class="botao" type="button" value="3" id="bt3"> <input class="operadores" type="button" value="-" id="opsub" onclick="subtrair()"><br> <!-- terceira fileira de botoes -->
+
+        <input class="botao" type="button" value="0" id="bt0"> <input class="botao" type="button" value="," id="virgula">  <input class="operadores" type="button" value="+" id="opsom" onclick="somar()"><br> <!-- quarta fileira de botoes -->
+
+        <input class="especiais" type="button" value="C" id="clean" onclick="limpar()"> <input type="button" class="especiais" value="%" id="porcen" id="opporc" onclick="porcentagem()"> <input class="operadores" type="button" value="=" id="igual" onclick="resultado()"> <!-- ultimos botoes -->
+
+    </div>
+
+    <script src="calc.js"></script>
+</body>
+</html>

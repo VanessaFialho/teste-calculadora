@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#calculadora {
+    margin-left: 10px;
+    background-color: black;
+    width: 260px;
+    padding: 40px 10px 20px 12px;
+}
+
+div#caixa {
+    width: 240px;
+    margin-bottom: 5px;
+    background-color: black;
+    font-size: 52px;
+    color: white;
+    text-align: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input.botao {
+    background-color: rgb(85, 85, 85);
+    color: white;
+    margin: 4px;
+    padding: 12px 19px 12px 19px;
+    font-size: 24px;
+    border-style: none;
+    border-radius: 40px;
+}
+
+input.operadores {
+    background-color: orange;
+    color: white;
+    margin: 4px;
+    padding: 12px 22px 12px 22px;
+    font-size: 24px;
+    border-style: none;
+    border-radius: 100px;
+}
+
+input#bt0 {
+    padding: 15px 52px 15px 52px;
+}
+
+input#virgula {
+    padding: 8px 22px 14px 22px;
+}
+
+input.especiais {
+    background-color: rgb(180, 180, 180);
+    font-size: 24px;
+    margin: 4px;
+    border-style: none;
+    border-radius: 100px;
+    padding: 15px 33px 15px 33px;
+}
+
+input#igual {
+    padding: 12px 19px 12px 19px;
+}
